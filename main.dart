@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:intro_app/layout_widget/RowDemo.dart';
 import 'package:intro_app/layout_widget/TabBarDemo.dart';
 
 import 'basic_widget/TextDemo.dart';
 import 'layout_widget/CardWidget.dart';
+import 'layout_widget/ContainerDemo.dart';
 import 'layout_widget/MaterialDemo.dart';
 import 'layout_widget/TableWidget.dart';
 import 'layout_widget/ThemeDemo.dart';
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
    */
 
   int opsi = 2;
-  var demo = TextDemo();
+  var demo = ColumnDemo();
 
   @override
   Widget build(BuildContext context) {
